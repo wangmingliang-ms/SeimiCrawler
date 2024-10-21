@@ -2,7 +2,7 @@ package cn.wanghaomiao.main;
 
 import cn.wanghaomiao.seimi.config.SeimiConfig;
 import cn.wanghaomiao.seimi.core.Seimi;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 /**
  * @author SeimiMaster seimimaster@gmail.com
