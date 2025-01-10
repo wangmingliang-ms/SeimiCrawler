@@ -194,7 +194,7 @@ public class Response extends CommonObject {
     }
 
     private <T> T parse(Class<T> target, String text) throws Exception {
-        T bean = target.newInstance();
+        T bean = target.getDeclaredConstructor().newInstance();
         final List<Field> props = new LinkedList<>();
         ReflectionUtils.doWithFields(target, props::add);
         JXDocument jxDocument = JXDocument.create(text);

@@ -86,7 +86,7 @@
 						<sourcepath>${project.basedir}/src/main/java</sourcepath>
 						<sourcepath>${project.basedir}/src/main/resources</sourcepath>
 					</compilerArguments>
-                    <release>21</release>
+                    <release>20</release>
 				</configuration>
 			</plugin>
 			<plugin>
