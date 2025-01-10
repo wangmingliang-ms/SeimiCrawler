@@ -19,13 +19,6 @@
             <email>seimimaster@gmail.com</email>
         </developer>
     </developers>
-    <dependencies>
-        <dependency>
-            <groupId>cglib</groupId>
-            <artifactId>cglib</artifactId>
-            <version>3.3.0</version>
-        </dependency>
-    </dependencies>
     <build>
         <plugins>
             <plugin>
@@ -39,7 +32,7 @@
                         <sourcepath>${project.basedir}/src/main/java</sourcepath>
                         <sourcepath>${project.basedir}/src/main/resources</sourcepath>
                     </compilerArguments>
-                    <release>20</release>
+                    <release>21</release>
                 </configuration>
             </plugin>
             <plugin>
